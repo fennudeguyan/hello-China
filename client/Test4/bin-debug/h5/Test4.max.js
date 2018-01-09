@@ -2616,19 +2616,6 @@ var Laya=window.Laya=(function(window,document){
 	})()
 
 
-	// import laya.flash.Window;
-	//class Main
-	var Main=(function(){
-		// extends Sprite
-		function Main(){
-			Laya.init(1000,800,WebGL);
-		}
-
-		__class(Main,'Main');
-		return Main;
-	})()
-
-
 	//class MyUtils
 	var MyUtils=(function(){
 		function MyUtils(){};
@@ -41478,5 +41465,5 @@ var Laya=window.Laya=(function(window,document){
 
 
 /*
-1 file:///E:/Work/project/Test4/src/Test4.as (518):warning:ri.toString This variable is not defined.
+1 file:///D:/mygithub2/hello-China/client/Test4/src/Test4.as (518):warning:ri.toString This variable is not defined.
 */
