@@ -1,0 +1,25 @@
+package cover;
+
+message HeadId{
+    required int32 id = 1;
+}
+message helloworld {
+ 
+    message helloCoverReq {
+        required HeadId head = 1;
+        required string name = 2;
+    }
+ 
+    message helloCoverRsp {
+        required int32 retcode = 1;
+        optional string reply = 2;
+    }
+
+    message SC_initTank{
+        required int32 angle = 1;
+        required int32 moveSpeed = 2;
+        required int32 angleSpeed = 3;
+        required int32 posX = 4;
+        required int32 posY = 5;
+    }
+}
